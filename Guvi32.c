@@ -3,17 +3,17 @@
 int main()
 {
 char a1[20];
-int i,count=1;
+int i,c=1;
 clrscr();
 gets(a1);
 for(i=0;i<n;i++)
 {
 if(a1[i]==' ')
 {
-count++;
+c++;
 }
 }
-printf("%d",count);
+printf("%d",c);
 getch();
 return 0;
 }
