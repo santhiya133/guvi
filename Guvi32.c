@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
 char a1[20];
 int i,count=1;
@@ -15,4 +15,5 @@ count++;
 }
 printf("%d",count);
 getch();
+return 0;
 }
