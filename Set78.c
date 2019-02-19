@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
 int m;
 clrscr();
@@ -13,5 +13,6 @@ else
 {
 printf("no");
 }
+ return 0;
 getch();
 }
