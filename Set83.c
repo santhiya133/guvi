@@ -2,13 +2,13 @@
 #include<conio.h>
 void main()
 {
-int a,b,s,t=0,d[20],i=0;
+int a,b,str,t=0,d[20],i=0;
 clrscr();
 scanf("%d",&t);
 while(t)
 {
-scanf("%d %c %d",&a,&s,&b);
-if(s='/')
+scanf("%d %c %d",&a,&str,&b);
+if(str='/')
 {
 d[i]=a/b;
 }
