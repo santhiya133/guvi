@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int c1=0,n,n1,n2,rem=0,sum=1,c=0,s=0,i,a,b;
+int cou=0,n,n1,n2,rem=0,sum=1,c=0,s=0,i,a,b;
 scanf("%d%d",&a,&b);
 for(i=a;i<=b;i++)
 {
@@ -9,12 +9,12 @@ n=i;
 n1=i;
 while(n1!=0)
 {
-c1++;
+cou++;
 n1=n1/10;
 }
 while(n!=0)
 {
-c=c1;
+c=cou;
 rem=n%10;
 while(c!=0)
 {
@@ -27,7 +27,7 @@ sum=1;
 rem=0;
 c=0;
 }
-c1=0;
+cou=0;
 if(s==i)
 {
 printf("%d",i);
