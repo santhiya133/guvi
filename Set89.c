@@ -2,22 +2,22 @@
 #include<conio.h>
 void main()
 {
-char a[20],t[30];
+char ar[20],t[30];
 int i,j,k=0;
 clrscr();
-gets(a);
-for(i=0;a[i]!='\0';i++)
+gets(ar);
+for(i=0;ar[i]!='\0';i++)
 {
-for(j=i+1;a[j]!='\0';j++)
+for(j=i+1;ar[j]!='\0';j++)
 {
-if(a[i]>a[j])
+if(ar[i]>ar[j])
 {
-t[k]=a[i];
-a[i]=a[j];
-a[j]=t[k];
+t[k]=ar[i];
+ar[i]=ar[j];
+arar[j]=t[k];
 }
 }
 }
-printf("\n%s",a);
+printf("\n%s",ar);
 getch();
 }
